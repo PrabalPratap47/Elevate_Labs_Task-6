@@ -1,7 +1,1 @@
-<<<<<<< HEAD
-# elevate-task-5
- Deploy a Static Website Using GitHub Pages
-=======
-# Elevate_Labs_Task-6
-Create a Contact Form and Validate Inputs Using JavaScript
->>>>>>> 7de765079bba062eaf97eae98be6c8ff076b213b
+I created a contact form with input fields for Name, Email, and Message, and implemented client-side validation using JavaScript. I styled the form using CSS for better readability and added real-time feedback for users. On form submission, the script checks for empty fields and validates the email format using regex. If validation fails, appropriate error messages appear below each input, and the form submission is prevented. When all inputs are valid, a success message is shown without actually sending the form. I tested edge cases like empty fields, invalid emails, and special characters to ensure robustness. This task helped me understand form handling, regex, and user-focused validation.
