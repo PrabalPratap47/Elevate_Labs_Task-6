@@ -1,0 +1,84 @@
+.body {
+    background-color: aquamarine;
+    font-family: Arial, sans-serif;
+    color: #333;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    background-color: #f0f0f0;
+    width: 400px;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .container h1 {
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form input {
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 1.5px solid #bbb;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  form input:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    gap: 10px;
+  }
+  
+  .buttons button {
+    flex: 1;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+  }
+  
+  .buttons button[type="submit"] {
+    background-color: #4CAF50;
+  }
+  
+  .buttons button[type="reset"] {
+    background-color: #f44336;
+  }
+  
+  #feedback {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    min-height: 24px;
+    color: red;
+  }
+  
